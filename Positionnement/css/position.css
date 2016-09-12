@@ -1,0 +1,47 @@
+.conteneur {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    height: 100px;
+    position: relative;
+}
+
+nav {
+    position: absolute;
+    bottom: 0;
+    width: 80%;
+    left: 10%;
+}
+
+nav > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+main {
+    display: flex;
+}
+
+main > aside {
+    flex: 1;
+}
+
+main > div {
+    flex: 2;
+}
+
+footer {
+    height: 400px;
+    display: flex;
+}
+
+footer > div {
+    width: 50%;
+    height: 50%;
+    margin: auto;
+}

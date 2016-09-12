@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    div.boite {
+      width: 100px;
+      height: 100px;
+      background-color: red;
+      opacity: 0;
+      transition: opacity 400ms ease;
+    }
+
+
+    div.boite.fin {
+      opacity: 1;
+      display: block;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="boite"></div>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam quos sed temporibus voluptatum. Nihil, quisquam sit. Ex, iste, tempore. Accusantium aliquid dolore harum maxime nihil nisi odit optio sed voluptatem.</p>
+
+  <button>Go</button>
+  <script>
+    var btn = document.querySelector('button');
+    var boite = document.querySelector('.boite');
+
+    btn.addEventListener('click', function() {
+      boite.classList.add('fin');
+    });
+
+  </script>
+</body>
+</html>

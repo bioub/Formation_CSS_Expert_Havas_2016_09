@@ -1,0 +1,35 @@
+header {
+    background: coral;
+}
+
+main {
+    background: lightblue;
+}
+
+nav {
+    background: violet;
+}
+
+ul {
+    background: yellow;
+}
+
+li {
+    background: beige;
+}
+
+aside {
+    background: mediumorchid;
+}
+
+main > div {
+    background: maroon;
+}
+
+footer {
+    background: gainsboro;
+}
+
+footer > div {
+    background: wheat;
+}

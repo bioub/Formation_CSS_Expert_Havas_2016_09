@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>:target</title>
+  <style>
+    section {
+      position: absolute;
+      opacity: 0;
+      transition: opacity 400ms ease;
+    }
+
+    section:target {
+      opacity: 1;
+    }
+  </style>
+</head>
+<body>
+  <h2>Menu</h2>
+  <nav>
+    <ul>
+      <li><a href="#introduction">Introduction</a></li>
+      <li><a href="#presentation">Présentation</a></li>
+    </ul>
+  </nav>
+  <section id="introduction">
+    <h2>Introduction</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, eligendi id illum ipsam magnam molestias quisquam unde vel. Aperiam cupiditate eligendi magnam quasi quisquam reprehenderit repudiandae soluta veritatis. Id, vitae?</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, eligendi id illum ipsam magnam molestias quisquam unde vel. Aperiam cupiditate eligendi magnam quasi quisquam reprehenderit repudiandae soluta veritatis. Id, vitae?</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, eligendi id illum ipsam magnam molestias quisquam unde vel. Aperiam cupiditate eligendi magnam quasi quisquam reprehenderit repudiandae soluta veritatis. Id, vitae?</p>
+  </section>
+  <section id="presentation">
+    <h2>Présentation</h2>
+    <p>
+      Qu'est ce que The Mud Day ?
+      The Mud Day c’est une course mettant à l’épreuve les capacités physiques et mentales des participants. The Mud Day, c’est un challenge d’environ 13 kilomètres avec plus de 20 obstacles inspirés des parcours du combattant. Au menu, de l’eau, de l’électricité, de la glace mais surtout de la boue. Il est possible de participer à The Mud Day seul ou en équipe, notamment pour passer les obstacles les plus exigeants.</p>
+  </section>
+</body>
+</html>
