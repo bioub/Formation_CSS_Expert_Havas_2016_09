@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    html, body {
+      height: 100%;
+    }
+
+    body {
+      display: flex;
+    }
+
+    div {
+      margin: auto;
+      width: 100px;
+      height: 100px;
+      background-color: red;
+      animation-name: pulse;
+      animation-duration: 400ms;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+    }
+    
+    @keyframes pulse {
+      0% {
+        transform: scale(1);
+      }
+
+      25% {
+        transform: scale(0.3);
+      }
+
+      50% {
+        transform: scale(0.7);
+      }
+
+
+      75% {
+        transform: scale(1.5);
+      }
+
+      100% {
+        transform: scale(1);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div></div>
+</body>
+</html>

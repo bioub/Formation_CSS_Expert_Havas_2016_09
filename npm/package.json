@@ -1,0 +1,10 @@
+{
+  "name": "exemple-npm",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jquery": "^3.1.0",
+    "jquery-fullscreen": "^1.0.0"
+  },
+  "devDependencies": {},
+  "private": true
+}

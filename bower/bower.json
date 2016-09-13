@@ -1,0 +1,22 @@
+{
+  "name": "bower-exemple",
+  "homepage": "https://github.com/bioub/Formation_CSS_Expert_Havas_2016_09",
+  "authors": [
+    "Romain Bohdanowicz <romain.bohdanowicz@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.0",
+    "bootstrap": "^3.3.7"
+  }
+}

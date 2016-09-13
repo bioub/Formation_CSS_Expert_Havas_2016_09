@@ -1,0 +1,13 @@
+.accordeon__box {
+    padding: 0px;
+    transition: flex 400ms ease;
+    margin: 0;
+    background-color: ivory;
+    height: 0;
+    overflow: hidden;
+}
+
+.accordeon__box:target {
+    flex: 1;
+    height: auto;
+}

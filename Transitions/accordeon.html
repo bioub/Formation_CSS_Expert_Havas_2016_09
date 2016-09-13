@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    html, body, .accordeon {
+      height: 100%;
+      margin: 0;
+    }
+
+    .accordeon {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .accordeon > p:target {
+      flex: 1;
+      height: auto;
+    }
+
+    p {
+      padding: 0px;
+      transition: flex 400ms ease;
+      margin: 0;
+      background-color: ivory;
+      height: 0;
+      overflow: hidden;
+    }
+
+    a {
+      padding: 10px;
+      background-color: aquamarine;
+    }
+  </style>
+</head>
+<body>
+  <div class="accordeon">
+    <a href="#introduction">Introduction</a>
+    <p id="introduction">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda beatae commodi doloribus enim est, fuga iure magnam maxime modi nam natus nulla omnis repellat sed sunt velit voluptate. Iste, voluptates.
+    </p>
+    <a href="#presentation">Présentation</a>
+    <p id="presentation">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda beatae commodi doloribus enim est, fuga iure magnam maxime modi nam natus nulla omnis repellat sed sunt velit voluptate. Iste, voluptates.
+    </p>
+    <a href="#contact">Contact</a>
+    <p id="contact">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda beatae commodi doloribus enim est, fuga iure magnam maxime modi nam natus nulla omnis repellat sed sunt velit voluptate. Iste, voluptates.
+    </p>
+  </div>
+</body>
+</html>
