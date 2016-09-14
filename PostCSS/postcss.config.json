@@ -1,0 +1,10 @@
+{
+  "use": [
+    "postcss-cssnext"
+  ],
+  "cssnext": {
+    "browsers": "last 2 versions"
+  },
+  "dir": "css",
+  "log": true
+}

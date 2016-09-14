@@ -1,13 +1,17 @@
+:root {
+    --monBleu: lightblue;
+}
+
 header {
-    background: lightblue;
+    background: var(--monBleu);
 }
 
 main {
-    background: lightblue;
+    background: var(--monBleu);
 }
 
 nav {
-    background: lightblue;
+    background: var(--monBleu);
 }
 
 ul {

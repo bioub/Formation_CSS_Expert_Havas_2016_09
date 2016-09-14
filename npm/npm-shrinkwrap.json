@@ -1,0 +1,27 @@
+{
+  "name": "exemple-npm",
+  "dependencies": {
+    "bootstrap": {
+      "version": "3.3.7",
+      "from": "bootstrap@>=3.3.7 <4.0.0",
+      "resolved": "https://registry.npmjs.org/bootstrap/-/bootstrap-3.3.7.tgz"
+    },
+    "jquery": {
+      "version": "3.1.0",
+      "from": "jquery@3.1.0",
+      "resolved": "https://registry.npmjs.org/jquery/-/jquery-3.1.0.tgz"
+    },
+    "jquery-fullscreen": {
+      "version": "1.0.0",
+      "from": "jquery-fullscreen@>=1.0.0 <2.0.0",
+      "resolved": "https://registry.npmjs.org/jquery-fullscreen/-/jquery-fullscreen-1.0.0.tgz",
+      "dependencies": {
+        "jquery": {
+          "version": "2.1.3",
+          "from": "jquery@2.1.3",
+          "resolved": "https://registry.npmjs.org/jquery/-/jquery-2.1.3.tgz"
+        }
+      }
+    }
+  }
+}

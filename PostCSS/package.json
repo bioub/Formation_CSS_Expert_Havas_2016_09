@@ -1,0 +1,9 @@
+{
+  "name": "postcss-exemple",
+  "devDependencies": {
+    "cssnano": "^3.7.4",
+    "postcss": "^5.2.0",
+    "postcss-cli": "^2.6.0",
+    "postcss-cssnext": "^2.8.0"
+  }
+}
